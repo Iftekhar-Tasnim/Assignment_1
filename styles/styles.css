@@ -6,6 +6,11 @@
     padding: 0;
 }
 
+.container {
+    max-width: 1600px; 
+    margin: 0 auto; 
+    padding: 0 160px; 
+}
 
 
 body {
@@ -62,3 +67,55 @@ body {
 /* nav done ----------------------------- */
 
 
+/* Hero------------------------- */
+.hero{
+    display: flex;
+    background-color: #C6E4D6;
+    width: 1280px;
+    height: 560px;
+    border-radius: 24px;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.hero-descriction{
+    width: 622px;
+    height: 326px;
+}
+
+.bannar-caption{
+    font-size: 24px;
+    font-weight: 500;
+    color: rgba(14, 14, 14, 0.5);
+}
+
+.hero-title{
+    font-size: 56px;
+    font-weight: bold;
+    margin:16px auto ;
+}
+
+.hero-img img {
+    width: 400px; 
+    height: auto;
+}
+
+.btn-hero{
+    font-family: "Fira Sans", sans-serif;
+    font-size: 18px;
+    font-weight: 600;
+    color: white;
+    border: none;
+    padding: 15px 30px;
+    border-radius: 10px;
+    cursor: pointer;
+    background-color: #006A50;
+}
+
+.btn-hero:hover{
+    background-color: white;
+    color: #006A50;
+  }
+
+
+  /* Hero Done */
