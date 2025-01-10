@@ -58,10 +58,13 @@ body {
     padding: 15px 30px;
     border-radius: 10px;
     cursor: pointer;
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
   }
   .btn-nav:hover{
     background-color: #006A50;
     color: white;
+    transform: translateY(-5px);
+    box-shadow: 0 6px 12px rgba(0, 0, 0, 0.15);   
   }
 
 /* nav done ----------------------------- */
@@ -113,11 +116,14 @@ body {
     cursor: pointer;
     background-color: #006A50;
     margin-top: 10px;
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
 }
 
 .btn-hero:hover{
     background-color: white;
     color: #006A50;
+    transform: translateY(-5px);
+    box-shadow: 0 6px 12px rgba(0, 0, 0, 0.15); 
   }
 
 
@@ -149,6 +155,8 @@ body {
     border-radius: 16px;
     text-align: left;
     padding: 24px;
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+    cursor: pointer;
 }
 
 .pillar-card img{
@@ -166,4 +174,113 @@ body {
 .pillar-card p{
     font-size: 16px;
     color: rgba(14, 14, 14, 0.7);
+}
+
+.pillar-card:hover {
+    transform: translateY(-3px); 
+    box-shadow: 0 6px 12px rgba(0, 0, 0, 0.15); 
+}
+
+/* Piller done */
+
+/* Vision------------------------- */
+
+.vision{
+    margin-bottom: 32px;
+}
+
+.vision-title h2{
+    font-size: 40px;
+    font-weight: bold;
+    margin-bottom: 24px;
+}
+
+.vision-title p{
+    font-size: 16xp;
+    color: rgba(14, 14, 14, 0.7);
+}
+
+.vision-title{
+    margin-bottom: 32px;
+}
+
+.vision-cards{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 24px;
+    
+}
+
+.vision-card{
+    display: flex; /* Enable flexbox */
+    flex-direction: column; /* Stack content vertically */
+    justify-content: space-between; 
+    height: 325px;
+    width: auto;
+    border-radius: 16px;
+    padding: 32px;
+}
+
+.vision-card.blue {
+    background-color: rgba(84, 144, 245, .2); 
+}
+
+.vision-card.green {
+    background-color: #C6E4D6;
+}
+
+.vision-card.yellow {
+    background-color: #F7EBCF;
+}
+
+.vision-cards img{
+    width: 62px;
+    height: 62px;
+}
+
+.vision-card h2{
+    font-size: 20px;
+    font-weight: bold;
+    
+}
+
+.vision-card p{
+    
+    font-size: 16px;
+    color: rgba(14, 14, 14, 0.7);
+}
+
+.btn-cards{
+    align-self: flex-start;
+    text-align: center;
+    font-family: "Fira Sans", sans-serif;
+    font-size: 18px;
+    font-weight: 600;
+    color: white;
+    border: none;
+    padding: 15px 30px;
+    border-radius: 10px;
+    cursor: pointer;
+    /* background-color: #006A50; */
+    margin-top: 10px;
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.btn-cards:hover{
+    background-color: white;
+    /* color: #006A50; */
+    transform: translateY(-5px);
+    box-shadow: 0 6px 12px rgba(0, 0, 0, 0.15); 
+  }
+
+.btn-cards.blue {
+    background-color: #5490F5; 
+}
+
+.btn-cards.green {
+    background-color: #09A15C;
+}
+
+.btn-cards.yellow {
+    background-color: #FFC239;
 }
