@@ -505,3 +505,94 @@ body {
     transform: translateY(-5px);
     box-shadow: 0 6px 12px rgba(0, 0, 0, 0.15); 
   }
+
+  /* recent News END */
+
+  /* Donate Today */
+
+  .donate{
+    margin: 80px 0;
+  }
+
+  .donate-head h2{
+    font-size: 40px;
+    font-weight: bold;
+    text-align: center;
+    margin-bottom: 24px;
+  }
+
+  .donate-head p{
+    font-size: 16px;
+    color:  rgba(14, 14, 14, 0.7);
+    text-align: center;
+    margin-bottom: 32px;
+  }
+
+  .donate-amount{
+    display: flex;
+    justify-content: space-evenly;
+    gap: 24px;
+  }
+
+  .donate-amount p{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: white;
+    width: 240px;
+    height: 128px;
+    text-align: center;
+    border-radius: 16px;
+    /* padding: 40px; */
+    font-size: 40px;
+    font-weight: bold;
+    color:  rgba(14, 14, 14, 0.7);
+    cursor: pointer;
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+  }
+
+  .donate-amount p:hover {
+    transform: scale(1.05); 
+    box-shadow: 0 6px 12px rgba(0, 0, 0, 0.15); 
+    background-color: #C6E4D6;
+}
+
+
+.other-amount input {
+    width: 1032px;
+    display: block;
+    padding: 20px 40px;
+    font-size: 16px;
+    text-align: center;
+    border: none;
+    margin-top: 32px;
+    margin-bottom: 32px;
+}
+
+
+    .btn-donate{
+        display: block;
+        margin: 0 auto;
+        font-family: "Fira Sans", sans-serif;
+        font-size: 18px;
+        font-weight: 600;
+        color: white;
+        border: none;
+        padding: 15px 30px;
+        border-radius: 10px;
+        cursor: pointer;
+        background-color: #006A50;
+        margin-top: 10px;
+        transition: transform 0.3s ease, box-shadow 0.3s ease;
+    }
+    
+    .btn-donate:hover{
+        background-color: white;
+        color: #006A50;
+        transform: translateY(-5px);
+        box-shadow: 0 6px 12px rgba(0, 0, 0, 0.15); 
+      }
+
+      /* donate done */
+
+      /* Newslatter---------- */
