@@ -559,8 +559,8 @@ body {
 
 
 .other-amount input {
+    margin: 80px;
     width: 1032px;
-    display: block;
     padding: 20px 40px;
     font-size: 16px;
     text-align: center;
@@ -596,3 +596,77 @@ body {
       /* donate done */
 
       /* Newslatter---------- */
+
+.newsletter {
+        max-width: 1280px;
+        max-height: 395px;
+        /* margin: ; */
+        padding: 80px 100px;
+        background-color: #C6E4D6;
+        border-radius: 16px;
+        text-align: center;
+    }
+
+.newsletter-head .title {
+    
+    
+    font-size: 40px;
+    font-weight: bold;  
+    margin-bottom: 16px;
+}
+
+.newsletter-head .subtitle-newsletter {
+    
+    font-size: 16px; 
+    color: rgba(14, 14, 14, 0.7);
+    margin-bottom: 24px;
+}
+
+.newsletter-form {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 24px;
+}
+
+.subscribe{
+    display: flex;
+
+}
+.subscribe input{
+    width: 600px;
+    max-height: 55px;
+    display: block;
+    padding: 18px 40px;
+    font-size: 16px;
+    text-align: left;
+    border: none; 
+    border-radius: 15px 0 0 15px ;
+}
+
+.subscribe button{
+    font-size: 18px;
+    font-weight: 500;
+    color: white;
+    border: none;
+    padding: 15px 30px;
+    border-radius:0 15px 15PX 0;
+    cursor: pointer;
+    background-color: #006A50;
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.subscribe button:hover{
+    background-color: white;
+    color: #006A50;
+    box-shadow: 0 6px 12px rgba(0, 0, 0, 0.15); 
+  }
+.newsletter-note p{
+    font-size: 16px;
+    font-family: "Fira Sans", sans-serif;
+    rgba(14, 14, 14, 0.7)
+  }
+
+  /* news latter done */
+
+  
+  /* footer */
