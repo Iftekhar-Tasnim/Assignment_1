@@ -284,3 +284,44 @@ body {
 .btn-cards.yellow {
     background-color: #FFC239;
 }
+
+/* Vision section end */
+
+/* quote ---------------- */
+
+.quote{
+    
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    padding: 48px 24px;
+    border-radius: 16px;
+    height: auto;
+    width: auto;
+    background-color: #FFFFFF;
+    background-image: url(../assets/quote-bg.png);
+    background-repeat: no-repeat;
+    background-position: 24px 24px;
+
+    margin-bottom: 80px;
+}
+
+.quote-name p{
+    font-size: 16px;
+    line-height: 1.75;
+    color: rgba(14, 14, 14, 0.8);
+}
+
+.quote-name h2{
+    padding-top: 15px;
+    font-size: 20px;
+    font-weight: 600;
+    color: rgba(14, 14, 14, 0.8);
+
+}
+
+.quote-name p{
+    font-size: 16px;
+    color: rgba(14, 14, 14, 0.6);
+
+}
